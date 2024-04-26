@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+</head>
+<body>
+    <div class="notice">//// THIS IS PROJECT WEBSITE ////</div>
+        <div class="video-container">
+            <video autoplay muted loop id="bg-video">
+                <source src="img/bg1.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <div class="overlay"></div>
+        </div>
+    <!-- Navigation Menu -->
+    <nav class="menu"> <!-- Add the "sticky" class here -->
+        <img src="img/logo.png" alt="Logo">
+        <div class="menu-items">
+            <a href="#about">#About</a>
+            <a href="#whatido">#WhatIDo</a>
+            <a href="#github-section">#GitHub</a>
+            <a href="#contact">#Contact</a>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Area -->
+    <section class="hero"> 
+        <div class="h.container">
+            <h1 class="moving-animation">moNksOp.space</h1>
+            <p class="custom-text">Your go-to destination for <br>Innovative web & cloud solutions.</p>
+            <a href="#contact" class="cta-button">Get Started</a>
+        </div>
+    </section>
+
+    <div class="bcontainer">
+        <section class="box">
+            <h3>SECURITY</h3>
+            <p>Ensuring the safety of your data and systems through robust encryption and proactive security measures.</p>
+        </section>
+        <section class="box">
+            <h3>SPEED</h3>
+            <p>Optimizing performance to deliver blazing-fast user experiences and minimize loading times for your website or application.</p>
+        </section>
+        <section class="box">
+            <h3>SIMPLICITY</h3>
+            <p>Streamlining processes and user interfaces to create intuitive experiences that are easy to navigate and understand.</p>
+        </section>
+    </div>
+    
+    
+
+    <section id="about" class="section">
+        <div class="container about-content">
+            <div class="about-text">
+                <h2>Welcome</h2>
+                <p>As an experienced web developer, I bring a wealth of skills to the table, ranging from HTML and MySQL to cloud hosting, WordPress, and Linux. My expertise lies in crafting unique online solutions tailored to your needs, ensuring a memorable user experience.</p>
+                <p>With a deep understanding of hosting, domains, and cloud infrastructure, I seamlessly navigate the complexities of the digital landscape. Whether it's managing databases or deploying WordPress sites, I am dedicated to delivering exceptional results that surpass expectations.</p>
+                <input type="checkbox" id="read-more-checkbox" class="read-more-checkbox">
+                <label for="read-more-checkbox" class="read-more-link">Read More</label>
+                <div id="additional-content" class="additional-content">
+                    <p>Fueled by a relentless drive for innovation, I am passionate about introducing fresh perspectives to every project. Let's collaborate to establish a distinctive digital presence that not only fulfills your objectives but also distinguishes you in the competitive online realm.</p>
+                </div>
+            </div>
+            <div class="about-image">
+                <img src="img/about.jpg" alt="Profile Picture">
+            </div>
+        </div>
+    </section>
+    
+    
+
+<!-- Whatido Section -->
+<section id="whatido">
+    <div class="container">
+        <h2>WHAT I DO</h2>
+        <div class="columns">
+            <div class="column">
+                <div class="service">  
+                    <div class="service-icon">
+                        <!-- Insert icon or image -->
+                        <img src="img/cloud.png" alt="Service Icon">
+                    </div>
+                    <ul class="service-list">
+                            <li class="service-content">
+                                <input type="checkbox" id="service1" class="read-more-checkbox">
+                                <h3><label for="service1" class="read-more-link">Assisting with Cloud Architecture</label></h3>
+                                <div id="additional-content1" class="additional-content">
+                                    <p>
+                                        Collaborate with senior engineers to design and develop cloud-based solutions that meet business requirements. This may involve selecting appropriate cloud services, designing scalable architectures, and ensuring security best practices.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-content">
+                                <input type="checkbox" id="service2" class="read-more-checkbox">
+                                <h3><label for="service2" class="read-more-link">Cloud Deployment and Configuration</label></h3>
+                                <div id="additional-content2" class="additional-content">
+                                    <p>
+                                        Assist in deploying and configuring cloud services and resources according to project specifications. This may include setting up virtual machines, containers, databases, networking components, and other cloud services.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-content">
+                                <input type="checkbox" id="service3" class="read-more-checkbox">
+                                <h3><label for="service3" class="read-more-link">Monitoring and Optimization</label></h3>
+                                <div id="additional-content3" class="additional-content">
+                                    <p>
+                                        Monitor the performance and health of cloud infrastructure and services, and assist in optimizing resource utilization and costs. This may involve configuring monitoring tools, analyzing performance metrics, and making recommendations for improvements.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-content">
+                                <input type="checkbox" id="service4" class="read-more-checkbox">
+                                <h3><label for="service4" class="read-more-link">Automation and Scripting</label></h3>
+                                <div id="additional-content4" class="additional-content">
+                                    <p>
+                                        Help automate repetitive tasks and processes using scripting languages and infrastructure-as-code (IaC) tools. This may involve writing scripts to provision and manage cloud resources, as well as implementing CI/CD pipelines for automated deployment and testing.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-content">
+                                <input type="checkbox" id="service5" class="read-more-checkbox">
+                                <h3><label for="service5" class="read-more-link">Troubleshooting and Support</label></h3>
+                                <div id="additional-content5" class="additional-content">
+                                    <p>
+                                        Assist in troubleshooting issues related to cloud infrastructure, applications, and services. This may involve diagnosing problems, analyzing logs and metrics, and collaborating with other team members to resolve issues in a timely manner.
+                                    </p>
+                                </div>
+                            </li>
+                            <li class="service-content">
+                                <input type="checkbox" id="service6" class="read-more-checkbox">
+                                <h3><label for="service6" class="read-more-link">Security and Compliance</label></h3>
+                                <div id="additional-content6" class="additional-content">
+                                    <p>
+                                        Assist in implementing and maintaining security measures to protect cloud environments and data. This may involve configuring access controls, encryption, and compliance policies, as well as staying up-to-date with security best practices and industry regulations.
+                                    </p>
+                                </div>
+                            </li>
+                        </ul>
+                </div>
+            </div>
+            <div class="column">
+                <div class="service">  
+                    <div class="service-icon">
+                        <!-- Insert icon or image -->
+                        <img src="img/www.png" alt="Service Icon">
+                    </div>
+                    <ul class="service-list">
+                        <li class="service-content">
+                            <input type="checkbox" id="service1" class="read-more-checkbox">
+                            <h3><label for="service7" class="read-more-link">Website Development</label></h3>
+                            <div id="additional-content1" class="additional-content">
+                                <p>
+                                    Create and maintain websites using programming languages such as HTML, CSS, and JavaScript. Develop responsive and user-friendly interfaces to enhance the user experience.                        </p>
+                            </div>
+                        </li>
+                        <li class="service-content">
+                            <input type="checkbox" id="service2" class="read-more-checkbox">
+                            <h3><label for="service8" class="read-more-link">Frontend Developer</label></h3>
+                            <div id="additional-content2" class="additional-content">
+                                <p>
+                                    Design and implement frontend components, including layouts, navigation menus, and interactive features. Ensure cross-browser compatibility and mobile responsiveness for seamless user interaction.                        </p>
+                            </div>
+                        </li>
+                        <li class="service-content">
+                            <input type="checkbox" id="service3" class="read-more-checkbox">
+                            <label for="service9" class="read-more-link"><h3>Custom Solutions</h3></label>
+                            <div id="additional-content3" class="additional-content">
+                                <p>
+                                    Custom Solutions: Tailor-made development to address unique business needs. From bespoke applications to specialized integrations, we deliver solutions that align with your specific requirements and goals.
+                                </p>
+                            </div>
+                        </li>
+                        
+                        <li class="service-content">
+                            <input type="checkbox" id="service4" class="read-more-checkbox">
+                            <h3><label for="service10" class="read-more-link">Hosting and Domain Managment</label></h3>
+                            <div id="additional-content4" class="additional-content">
+                                <p>
+                                    Configuring Web Hosting Services: Set up and manage web hosting services to ensure website accessibility and performance. Configure domain names, DNS settings, SSL certificates, and server configurations to maintain website security and reliability.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-content">
+                            <input type="checkbox" id="service5" class="read-more-checkbox">
+                            <h3><label for="service11" class="read-more-link">Content Management Systems (CMS)</label></h3>
+                            <div id="additional-content5" class="additional-content">
+                                <p>
+                                    Managing Content with CMS: Customize and manage content management systems such as WordPress, Joomla, or Drupal. Create and update website content, including text, images, and multimedia, using CMS interfaces.
+                                </p>
+                            </div>
+                        </li>
+                        <li class="service-content">
+                            <input type="checkbox" id="service6" class="read-more-checkbox">
+                            <h3><label for="service12" class="read-more-link">Troubleshooting and Debugging</label></h3>
+                            <div id="additional-content6" class="additional-content">
+                                <p>
+                                    Identifying and Resolving Technical Issues: Troubleshoot and debug technical issues, bugs, and compatibility problems in web applications. Perform testing and debugging to ensure website functionality and performance across different browsers and devices.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- GitHub Section -->
+
+    <section id="github-section" class="section">
+        <div class="gitcontainer">
+            <div class="github-container"><br><br>
+                <a href="https://github.com/monksop/" rel="no_follow">
+                    <img src="img/github.png" alt="GitHub Logo">
+                    <h3>GitHub Page</h3>
+                </a>
+                
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <div class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </div>
+        </div>
+    </section><br>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+            <p class="copyright">© 2024 Your Company. All rights reserved.</p>
+        </div>
+    </footer>
+    
+    
+    
+</body>
+</html>
