@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Website</title>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/animations.css">
 </head>
 <body>
     <div class="notice">//// THIS IS PROJECT WEBSITE ////</div>
@@ -17,11 +16,12 @@
             <div class="overlay"></div>
         </div>
     <!-- Navigation Menu -->
-    <nav class="menu"> <!-- Add the "sticky" class here -->
+    <nav class="menu">
         <img src="img/logo.png" alt="Logo">
         <div class="menu-items">
             <a href="#about">#About</a>
             <a href="#whatido">#WhatIDo</a>
+            <a href="#technologies">#Technologies</a>
             <a href="#github-section">#GitHub</a>
             <a href="#contact">#Contact</a>
         </div>
@@ -75,14 +75,13 @@
     
 
 <!-- Whatido Section -->
-<section id="whatido">
+<section id="whatido" class="section">
     <div class="container">
         <h2>WHAT I DO</h2>
         <div class="columns">
             <div class="column">
                 <div class="service">  
                     <div class="service-icon">
-                        <!-- Insert icon or image -->
                         <img src="img/cloud.png" alt="Service Icon">
                     </div>
                     <ul class="service-list">
@@ -146,7 +145,6 @@
             <div class="column">
                 <div class="service">  
                     <div class="service-icon">
-                        <!-- Insert icon or image -->
                         <img src="img/www.png" alt="Service Icon">
                     </div>
                     <ul class="service-list">
@@ -211,6 +209,13 @@
 </section>
 
 
+<section id="technologies" class="section">
+    <div class="container">
+        <h2>Technologies</h2>
+        <div class="logos-container" id="logos-container">
+        </div>
+    </div>
+</section>
 
 
 
@@ -229,16 +234,19 @@
     </section>
     
     
+    
 
     <!-- Contact Section -->
     <section id="contact" class="section">
         <div class="container">
             <h2>Contact</h2>
             <div class="contact-form">
-                <input type="text" placeholder="Your Name">
-                <input type="email" placeholder="Your Email">
-                <textarea placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
+                <form action="send_email.php" method="post">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
             </div>
         </div>
     </section><br>
@@ -247,11 +255,14 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-            <p class="copyright">© 2024 Your Company. All rights reserved.</p>
+            <p class="copyright">© 2024 MonksOP. All rights reserved.</p>
         </div>
     </footer>
     
     
-    
+
+
+    <script src="js/main.js"></script>
+
 </body>
 </html>
