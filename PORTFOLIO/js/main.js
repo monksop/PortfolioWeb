@@ -56,3 +56,11 @@ technologies.forEach(tech => {
     logosContainer.appendChild(img);
     document.body.appendChild(popup); // Append popups to body to prevent stacking context issues
 });
+
+// Add scroll event listener to hide popup on scroll
+window.addEventListener('scroll', () => {
+    if (activePopup) {
+        activePopup.classList.remove('active');
+        activePopup = null;
+    }
+});

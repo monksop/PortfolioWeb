@@ -455,7 +455,7 @@ body {
 
 @keyframes moveLogo {
     0% {
-        transform: translateY(0);
+        transform: translateY(-70);
     }
     100% {
         transform: translateY(-20px);
