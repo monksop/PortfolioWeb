@@ -2,17 +2,6 @@
 
 Welcome to the MonksOp Portfolio website! This project showcases various aspects of web development and cloud solutions offered by MonksOp. Below you'll find details on how to set up and customize the website, as well as an overview of its structure and features.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [File Structure](#file-structure)
-- [Customization](#customization)
-- [Technologies Used](#technologies-used)
-- [Contact](#contact)
-
 ## Project Overview
 
 This portfolio website is designed to present the services of MonksOp, including web development, cloud solutions, security, speed, and simplicity. The site features a sleek design with a video background, responsive layout, and multiple sections detailing services, technologies, and contact information.
@@ -34,12 +23,13 @@ To set up the website locally, follow these steps:
 
 ```bash
 git clone https://github.com/monksop/portfolio.git
-
+```
 
 2. Navigate to the project directory:
 
 ```bash
 cd portfolio
+```
 
 3. Open the index.html file in your browser to view the site.
 
@@ -56,8 +46,7 @@ File Structure
 
 The project directory is structured as follows:
 
-css
-
+```bash
 portfolio/
 │
 ├── css/
@@ -76,7 +65,8 @@ portfolio/
 ├── index.html              # Main HTML file
 └── send_email.php          # PHP script for contact form
 
-Customization
+```
+
 CSS Styling
 
     main.css: Customize the look and feel of the website by editing this file. You can change colors, fonts, and layout styles.
@@ -99,10 +89,4 @@ Technologies Used
     CSS3: Styling and layout.
     JavaScript: Interactivity and animations.
     PHP: Contact form backend.
-    Various Libraries and Frameworks: Included as necessary for specific features.
 
-Contact
-
-For any inquiries or further information, please reach out via the contact form on the website or visit the GitHub Page.
-
-Thank you for using the MonksOp Portfolio website. We hope you find it informative and easy to navigate. Feel free to customize and expand it to suit your needs!
