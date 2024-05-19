@@ -9,7 +9,6 @@ This portfolio website is designed to present the services of MonksOp, including
 ## Features
 
 - **Video Background:** An engaging video background on the homepage.
-- **Responsive Design:** Optimized for viewing on all devices.
 - **Navigation Menu:** Easy navigation with smooth scrolling.
 - **Service Sections:** Detailed descriptions of services provided.
 - **Technology Logos:** Animated display of technologies used.
